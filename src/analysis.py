@@ -7,3 +7,7 @@ def top_products(df):
 def monthly_sales(df):
     df['Month'] = df['Date'].dt.to_period('M')
     return df.groupby('Month')['Sales'].sum()
+
+
+
+# home 

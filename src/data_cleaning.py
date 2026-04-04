@@ -10,3 +10,8 @@ def load_and_clean_data(file_path):
     df = df.dropna(subset=['Date'])
 
     return df
+
+
+
+    # find step 
+    
